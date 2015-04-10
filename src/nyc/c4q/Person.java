@@ -8,6 +8,12 @@ public class Person {
     public Person() {
     }
 
+    public Person(String name, String city){
+        this.name = name;
+        this.city = city;
+
+    }
+
     public Person(String name) {
         this.name = name;
     }
